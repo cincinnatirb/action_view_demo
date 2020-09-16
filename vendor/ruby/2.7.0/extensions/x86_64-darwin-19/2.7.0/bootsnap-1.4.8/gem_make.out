@@ -1,0 +1,15 @@
+current directory: /Users/bbarnett/src/cincinnatirb/action_view_demo/vendor/ruby/2.7.0/gems/bootsnap-1.4.8/ext/bootsnap
+/Users/bbarnett/.asdf/installs/ruby/2.7.0/bin/ruby -I /Users/bbarnett/.asdf/installs/ruby/2.7.0/lib/ruby/2.7.0 -r ./siteconf20200915-59595-1upa81g.rb extconf.rb
+creating Makefile
+
+current directory: /Users/bbarnett/src/cincinnatirb/action_view_demo/vendor/ruby/2.7.0/gems/bootsnap-1.4.8/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/bbarnett/src/cincinnatirb/action_view_demo/vendor/ruby/2.7.0/gems/bootsnap-1.4.8/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/bbarnett/src/cincinnatirb/action_view_demo/vendor/ruby/2.7.0/gems/bootsnap-1.4.8/ext/bootsnap
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20200915-59595-20lzpi/bootsnap

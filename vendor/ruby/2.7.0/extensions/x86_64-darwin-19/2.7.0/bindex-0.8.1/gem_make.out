@@ -1,0 +1,15 @@
+current directory: /Users/bbarnett/src/cincinnatirb/action_view_demo/vendor/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+/Users/bbarnett/.asdf/installs/ruby/2.7.0/bin/ruby -I /Users/bbarnett/.asdf/installs/ruby/2.7.0/lib/ruby/2.7.0 -r ./siteconf20200915-59595-onvb55.rb extconf.rb
+creating Makefile
+
+current directory: /Users/bbarnett/src/cincinnatirb/action_view_demo/vendor/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" clean
+
+current directory: /Users/bbarnett/src/cincinnatirb/action_view_demo/vendor/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR="
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.bundle
+
+current directory: /Users/bbarnett/src/cincinnatirb/action_view_demo/vendor/ruby/2.7.0/gems/bindex-0.8.1/ext/skiptrace
+make "DESTDIR=" install
+/usr/local/bin/ginstall -c -m 0755 cruby.bundle ./.gem.20200915-59595-fqkwbi/skiptrace/internal
