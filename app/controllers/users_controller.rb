@@ -9,6 +9,7 @@ class UsersController < ApplicationController
 
   # GET /users/1
   # GET /users/1.json
+  # GET /users/1.xml
   def show
   end
 
