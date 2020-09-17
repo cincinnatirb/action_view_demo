@@ -38,17 +38,17 @@
 
   <div class="field">
     <%= form.label :gpa %>
-    <%= form.text_field :gpa %>
+    <%= form.number_field :gpa, max: 4.0, min: 0.0, step: 0.1 %>
   </div>
 
   <div class="field">
     <%= form.label :birth_date %>
-    <%= form.date_select :birth_date %>
+    <%= form.date_select :birth_date, start_year: 120.years.ago.localtime.year, end_year: 18.years.ago.localtime.year, selected: 18.years.ago.localtime %>
   </div>
 
   <div class="field">
     <%= form.label :account_expiration %>
-    <%= form.datetime_select :account_expiration %>
+    <%= form.datetime_select :account_expiration, ampm: true, selected: 1.year.from_now.localtime %>
   </div>
 
   <div class="field">
