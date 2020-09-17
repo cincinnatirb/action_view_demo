@@ -6,6 +6,8 @@ In this demo we will:
     * helpers
 * Modify default parameters to achieve specific behaviors
 
+**NOTE:** You can watch a presentation of this material [here](https://www.youtube.com/watch?v=3HKYPBIndd8).
+
 ## 1. Prerequisites
 * Ubuntu 20 LTS: https://www.youtube.com/watch?v=I8WhikkiiSI
 * Ruby, Node and Yarn: https://www.youtube.com/watch?v=C_xhTo9bw0s
